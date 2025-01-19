@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qr code</title>
+    <style>
+        body,html{
+            margin: 0;
+            padding: 0%;
+            height: 100%;
+        }
+        .container{
+            background-color: blue;
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+           
+
+        }
+        .input{
+            background-color:white;
+            padding: 50px 100px;
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 20px;
+            margin:20vh;
+        }
+        p{
+            font-size: 100%;
+        }
+        input{
+            height: 50px;
+            width: 250px;
+            border-radius: 20px;
+            
+        }
+        button{
+            background-color: white;
+            height: 50px;
+            width: 250px;
+            border-radius: 20px;
+        }
+        button:hover{
+            background-color: rebeccapurple;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <p>QR GENRATOR</p>
+            <input type="text" id = "inputtext" placeholder="Enter the URL"><br></br>
+            <button onclick="generate()">geenerate QR</button>
+        </div>
+        <div class="QR">
+            <div class="img">
+                <img src="" id="imagqr">
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
